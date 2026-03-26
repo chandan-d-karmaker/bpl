@@ -11,7 +11,7 @@ const Players = ({ players, setCoin, coin }) => {
     console.log(playersData);
     return (
 
-        <div className='w-4/5 mx-auto'>
+        <div className='w-4/5 mx-auto mb-20'>
             <div className='flex justify-between'>
                 {actvBtn === "available" && (
                     <h2 className='mb-10 text-2xl font-bold'>Available Players</h2>
@@ -32,7 +32,7 @@ const Players = ({ players, setCoin, coin }) => {
                 <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3  gap-4'>
                     {playersData.map(player => <Player key={player.id} player={player} setCoin={setCoin} coin={coin} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers} />)}
                 </div>
-            ) : <SelectedPlayers selectedPlayers={selectedPlayers} />}
+            ) : <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setCoin={setCoin} coin={coin} />}
             
         </div>
     );
