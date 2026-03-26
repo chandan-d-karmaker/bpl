@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import user from '../../assets/user 1.svg';
 import flag from '../../assets/flag.svg';
 
-const Player = ({ player }) => {
+const Player = ({ player, setCoin, coin }) => {
+
+    const [selected, setSelected] = useState(false);
+
+    const handleSelectedPlayers= () => { 
+        setSelected(!selected);
+         setCoin(coin - player.price) }
     return (
         <div className='p-6 border border-gray-300 rounded-xl'>
             <img className='rounded-xl h-60 w-full mb-6' src={player.playerImage} alt={player.playerName} />
@@ -31,10 +37,12 @@ const Player = ({ player }) => {
             <div className='flex justify-between items-center'>
                 <p className='font-semibold'>Price: ${player.price}</p>
 
-                <button className='btn btn-outline btn-accent text-[#131313] text-sm font-normal hover:btn-info'>Choose Player</button>
+                <button className={`btn btn-outline btn-accent text-[#131313] text-sm font-normal hover:btn-info}`} onClick={handleSelectedPlayers} disabled={selected}>
+                    {selected ? 'Selected' : 'Choose Player'}
+                </button>
             </div>
 
-        </div>
+        </div >
     );
 };
 
