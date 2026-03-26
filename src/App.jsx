@@ -16,12 +16,16 @@ function App() {
 
   return (
     <div>
-        <Navbar/>
-        <Banner/>
+      <Navbar />
+      <Banner />
 
-        <Suspense fallback={<span className="loading loading-infinity loading-xl"></span>}>
-          <Players players={players}/>
-        </Suspense>
+      <Suspense fallback={
+        <div className="flex justify-center items-center min-h-[50vh] w-full">
+          <span className="loading loading-infinity loading-lg text-primary"></span>
+        </div>
+      }>
+        <Players players={players} />
+      </Suspense>
     </div>
   )
 }

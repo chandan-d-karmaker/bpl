@@ -4,7 +4,7 @@ import shadow from '../../assets/bg-shadow.png';
 
 const Banner = () => {
     return (
-        <div className='bg-black w-4/5 mx-auto rounded-xl bg-no-repeat bg-center bg-cover' style={{ backgroundImage: `url(${shadow})` }}>
+        <div className='bg-black w-4/5 mx-auto rounded-xl bg-no-repeat bg-center bg-cover mb-20' style={{ backgroundImage: `url(${shadow})` }}>
 
             <div className='flex flex-col items-center p-15 text-center'>
                 <img className='mb-6' src={banner} alt="Banner" />

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "playerName": "Virat Kohli",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Virat_Kohli_during_the_India_vs_Japan_match_of_the_2015_World_Cup_%28cropped%29.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHkz-CtfvMGgRgdHNQsxEMfsV37rycmXyYn4jbyBlVnEZZ-edxrgDlTl1Rbfo6teEkc2zsRuzlDUSc71RWUp5JtoegBcvnZPuUMwRmkDw&s=10",
     "playerCountry": "India",
     "playerType": "Batsman",
     "ratting": 95,
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "playerName": "Shakib Al Hasan",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/5/52/Shakib_Al_Hasan_2018.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGEJRKrf6vQgme7-z9qNXD-wlwT-uOpHawbUn0C1gnN-BYGL5xm1A9Fvrr85_IcqkW_nTFVWrLyGFfIdCxJ5WJOQQ4pCALhvokViWCWQ&s=10",
     "playerCountry": "Bangladesh",
     "playerType": "All-rounder",
     "ratting": 92,
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "playerName": "Pat Cummins",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/8/87/Pat_Cummins_2017.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQipnQkE0BGbPG9YPWrIHZJFotsttHfFi1AxwCt0SciDOGzCpBcabtOjVRnA1TqostKNjM3JED5NseH8PTf3graO5LBOnBa_eBb83VwKWaeIJqP16HpkiLJWZlCz5a_Mtb3luyr_tW6Ng&s=19",
     "playerCountry": "Australia",
     "playerType": "Bowler",
     "ratting": 94,
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "playerName": "Jos Buttler",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Jos_Buttler_in_2018.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ9sT7L1WppVAyDhVTGPCXp1YFSYTwxgdaIWtb4jDqS80VY6R9SUxOO1uFDeVcWr9-bKWC7eT96mGU3aYw",
     "playerCountry": "England",
     "playerType": "Wicketkeeper Batsman",
     "ratting": 90,
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "playerName": "Babar Azam",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/d/df/Babar_Azam_2020.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXpksImZUjbx7DEvoBsFdfWxV19AXvxkf5v-SUdOOU-6XaTuMLUs57v3Ar49GPrQH8S0gU0R6WNJvdOB6g0nEbgdgFB5J4XR5N1XeUdBv5&s=10",
     "playerCountry": "Pakistan",
     "playerType": "Batsman",
     "ratting": 93,
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "playerName": "Rashid Khan",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Rashid_Khan_2019.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRueTJCOBh5JFOV1yGRcqTq1_UhI5QV2UUNBvXrRtjUfXhSitrCoG1CoP9RGL9E1zpSvU-SMuueUyweGwMLbq05lF1K_FsjTSaWtwMaZxg2VA&s=10",
     "playerCountry": "Afghanistan",
     "playerType": "Bowler",
     "ratting": 96,
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "playerName": "Kane Williamson",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Kane_Williamson_in_2019.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGMUuSIk64HQOhM5aVaxM6XjGboW7nMzCxqWyLL7InEpxB_PVK_5-wgmbTArwMYMtAmbO5oayLnO7_EktD209pVPnbAvM3cP3zolSIsmY&s=10",
     "playerCountry": "New Zealand",
     "playerType": "Batsman",
     "ratting": 91,
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "playerName": "Kagiso Rabada",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Kagiso_Rabada_2018.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ4IdInDGvxKANfEXPC3ko4qhGj4qWrs45uw0EUndl0UX7a77uCIwtN1UHJ3k4jyOVS8ghvgq62D9vJ--w",
     "playerCountry": "South Africa",
     "playerType": "Bowler",
     "ratting": 89,
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "playerName": "Ben Stokes",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Ben_Stokes_2019.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSYVF1E2pbV9pViQQw8aKTUAAUtkgp_-a8nf3EjoWjpEPJ45PNCFqrFQi7rTi5hGlJWdOU9PkYHSYY4_jg",
     "playerCountry": "England",
     "playerType": "All-rounder",
     "ratting": 94,
@@ -101,7 +101,7 @@
   {
     "id": 10,
     "playerName": "Jasprit Bumrah",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jasprit_Bumrah_in_PMO_New_Delhi.jpg",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRZyu1IHeq2NnZcpAndfsel06KbbBdFun-KA1MbXwDttY-GO6nDc33MW2dcEHK13FFieoxgn0Z17nlrLwXBnqaT2Yam484c3gI-c47r22lNdlZyPdDA39ZCubiGJkfjvxzGQsbz4LYlOBdO&s=19",
     "playerCountry": "India",
     "playerType": "Bowler",
     "ratting": 97,
@@ -112,12 +112,23 @@
   {
     "id": 11,
     "playerName": "Glenn Maxwell",
-    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Glenn_Maxwell_in_2018.jpg",
+    "playerImage": "https://resources.cricket-australia.pulselive.com/photo-resources/2025/12/02/890ae013-da67-4f4b-8282-fbd061e3fb7d/251202_MAIN_MAXWELL.png?width=950&height=535",
     "playerCountry": "Australia",
     "playerType": "All-rounder",
     "ratting": 88,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "price": 1450000
+  },
+  {
+    "id": 12,
+    "playerName": "Rohit Sharma",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRsk5wNM36-rtEjnImD2ZPZhcSSJNcuaw8hT-ylRfHKTBOaeiXYroPGdb67RNJp2QKyvyyRTQkzQPO33GLc14LotLyb2MM3QTuzULfC4Uo--u5p3rTh3-Bk3L-Jhxz0i7YnSwXMsTJa&s=19",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "ratting": 94,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1600000
   }
 ]
