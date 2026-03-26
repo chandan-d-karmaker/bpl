@@ -19,7 +19,7 @@ function App() {
         <Navbar/>
         <Banner/>
 
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<span className="loading loading-infinity loading-xl"></span>}>
           <Players players={players}/>
         </Suspense>
     </div>
