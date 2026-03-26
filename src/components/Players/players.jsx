@@ -12,14 +12,14 @@ const Players = ({ players, setCoin, coin }) => {
     return (
 
         <div className='w-4/5 mx-auto mb-20'>
-            <div className='flex justify-between'>
+            <div className='md:flex justify-between flex-wrap'>
                 {actvBtn === "available" && (
-                    <h2 className='mb-10 text-2xl font-bold'>Available Players</h2>
+                    <h2 className='text-center mb-10 text-2xl font-bold'>Available Players</h2>
                 )}
                 {actvBtn === "selected" && (
-                    <h2 className='mb-10 text-2xl font-bold'>Selected Players ({selectedPlayers.length}/{playersData.length})</h2>
+                    <h2 className='text-center mb-10 text-2xl font-bold'>Selected Players ({selectedPlayers.length}/{playersData.length})</h2>
                 )}
-                <div className='rounded-2xl'>
+                <div className='mb-10 flex justify-center'>
                     <button className={`btn rounded-r-none rounded-l-3xl ${actvBtn === "available" ? "bg-amber-300 font-bold" : "font-normal"}`} onClick={() => setActvBtn('available')}>
                         Available
                     </button>
