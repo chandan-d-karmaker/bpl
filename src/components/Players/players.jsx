@@ -17,14 +17,14 @@ const Players = ({ players, setCoin, coin }) => {
                     <h2 className='mb-10 text-2xl font-bold'>Available Players</h2>
                 )}
                 {actvBtn === "selected" && (
-                    <h2 className='mb-10 text-2xl font-bold'>Selected Players</h2>
+                    <h2 className='mb-10 text-2xl font-bold'>Selected Players ({selectedPlayers.length}/{playersData.length})</h2>
                 )}
                 <div className='rounded-2xl'>
                     <button className={`btn rounded-r-none rounded-l-3xl ${actvBtn === "available" ? "bg-amber-300 font-bold" : "font-normal"}`} onClick={() => setActvBtn('available')}>
                         Available
                     </button>
                     <button className={`btn rounded-l-none rounded-r-3xl ${actvBtn === "selected" ? "bg-amber-300 font-bold" : "font-normal"}`} onClick={() => setActvBtn('selected')}>
-                        Selected (<span></span>)
+                        Selected ({selectedPlayers.length})
                     </button>
                 </div>
             </div>
