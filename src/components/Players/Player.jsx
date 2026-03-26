@@ -2,13 +2,25 @@ import React, { useState } from 'react';
 import user from '../../assets/user 1.svg';
 import flag from '../../assets/flag.svg';
 
-const Player = ({ player, setCoin, coin }) => {
+const Player = ({ player, setCoin, coin, setSelectedPlayers, selectedPlayers }) => {
 
     const [selected, setSelected] = useState(false);
 
-    const handleSelectedPlayers= () => { 
+    const handleSelectedPlayers = () => {
+    
+        let newCoin = coin - player.price;
+        if(newCoin>=0){
+            setCoin(coin - player.price);
+            alert(`${player.playerName} is selected!`);
+        } else {
+            alert("Not enough coin to buy this player!");
+            return;
+        }
         setSelected(!selected);
-         setCoin(coin - player.price) }
+
+        setSelectedPlayers([...selectedPlayers, player]);
+
+    }
     return (
         <div className='p-6 border border-gray-300 rounded-xl'>
             <img className='rounded-xl h-60 w-full mb-6' src={player.playerImage} alt={player.playerName} />

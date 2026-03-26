@@ -6,6 +6,7 @@ const Players = ({ players, setCoin, coin }) => {
 
     const playersData = use(players);
     const [actvBtn, setActvBtn] = useState('available');
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
 
     console.log(playersData);
     return (
@@ -29,9 +30,9 @@ const Players = ({ players, setCoin, coin }) => {
             </div>
             {actvBtn === "available" ?  (
                 <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3  gap-4'>
-                    {playersData.map(player => <Player key={player.id} player={player} setCoin={setCoin} coin={coin} />)}
+                    {playersData.map(player => <Player key={player.id} player={player} setCoin={setCoin} coin={coin} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers} />)}
                 </div>
-            ) : <SelectedPlayers />}
+            ) : <SelectedPlayers selectedPlayers={selectedPlayers} />}
             
         </div>
     );
